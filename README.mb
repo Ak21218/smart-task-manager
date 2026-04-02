@@ -1,0 +1,42 @@
+# Smart Task Manager (Python)
+
+A command-line based task management system built using Python. This project is being developed step-by-step to demonstrate backend logic and system design.
+
+---
+
+## 🚀 Features
+
+### ✅ Day 1
+- Add Task
+- View Tasks
+
+### ✅ Day 2
+- Mark Task as Complete
+- Delete Task
+
+---
+
+## 🛠 Tech Stack
+- Python
+- CLI (Command Line Interface)
+
+---
+
+
+---
+
+## 🎯 Project Goal
+To build a real-world task management system step-by-step while improving backend development skills and problem-solving.
+
+---
+
+## 📌 Upcoming Features
+- Task Priority (High/Medium/Low)
+- Deadline tracking
+- Data persistence using JSON
+- Sorting tasks
+
+---
+
+## 👨‍💻 Author
+Akash Singh

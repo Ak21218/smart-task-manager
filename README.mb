@@ -14,6 +14,12 @@ A command-line based task management system built using Python. This project is 
 - Mark Task as Complete
 - Delete Task
 
+### ✅ Day 3
+- Task priority (High/Medium/Low)
+
+### ✅ Day 4
+- Deadline tracking for tasks
+
 ---
 
 ## 🛠 Tech Stack
@@ -31,8 +37,6 @@ To build a real-world task management system step-by-step while improving backen
 ---
 
 ## 📌 Upcoming Features
-- Task Priority (High/Medium/Low)
-- Deadline tracking
 - Data persistence using JSON
 - Sorting tasks
 

@@ -28,6 +28,15 @@ A command-line based task management system built using Python. This project is 
 
 ---
 
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+2. Navigate to the project folder:
+
+3. Run the program:
 
 ---
 
@@ -36,9 +45,31 @@ To build a real-world task management system step-by-step while improving backen
 
 ---
 
+
+---
+
+## 🧠 Key Concepts Used
+- Data Structures (Lists, Dictionaries)
+- File Handling (JSON)
+- Modular Programming (Functions)
+- Conditional Logic & Input Handling
+
+---
+
+## 🎯 Project Goal
+To build a real-world task management system step-by-step while improving backend development skills and problem-solving ability.
+
+---
+
 ## 📌 Upcoming Features
-- Data persistence using JSON
-- Sorting tasks
+- Task sorting based on priority
+- Input validation improvements
+- UI upgrade (Flask-based web version)
+
+---
+
+## 👨‍💻 Author
+Akash Singh
 
 ---
 

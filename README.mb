@@ -31,6 +31,37 @@ A command-line based task management system built using Python. This project is 
 
 ---
 
+# Smart Task Manager (Python)
+
+A command-line based task management system built using Python. This project demonstrates backend development concepts, task handling logic, and persistent storage using JSON.
+
+---
+
+## 🚀 Features
+
+- Add, view, update, and delete tasks (CRUD operations)
+- Mark tasks as completed
+- Assign priority levels (High / Medium / Low)
+- Deadline tracking for tasks
+- Sort tasks based on priority
+- Persistent storage using JSON (tasks are saved across sessions)
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- JSON (for file storage)
+- CLI (Command Line Interface)
+
+---
+
+## 📂 Project Structure
+task-manager/
+│
+├── main.py
+├── tasks.json
+└── README.md
 ---
 
 ## ▶️ How to Run
@@ -51,28 +82,37 @@ To build a real-world task management system step-by-step while improving backen
 
 ---
 
+
+---
+
 ## 🧠 Key Concepts Used
+
 - Data Structures (Lists, Dictionaries)
 - File Handling (JSON)
 - Modular Programming (Functions)
-- Conditional Logic & Input Handling
+- Input Handling and Validation
+- Sorting Algorithms (Custom priority sorting)
 
 ---
 
-## 🎯 Project Goal
-To build a real-world task management system step-by-step while improving backend development skills and problem-solving ability.
+## 🎯 Project Objective
+
+To build a real-world task management system while applying backend development concepts and improving problem-solving skills.
 
 ---
 
-## 📌 Upcoming Features
-- Task sorting based on priority
+## 📸 Sample Output
+1. run | High | 2026-11-18 | Done
+2. eat | High | 2026-08-07 | Pending
+3. write | Medium | 2026-01-06 | Pending
+4. read | Low | 2026-05-09 | Done
+
+---
+## 🚀 Future Improvements
+
 - Input validation improvements
-- UI upgrade (Flask-based web version)
-
----
-
-## 👨‍💻 Author
-Akash Singh
+- GUI/Web version using Flask
+- Notifications/reminders system
 
 ---
 

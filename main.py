@@ -73,6 +73,13 @@ def delete_task():
     else:
         print("Invalid task number\n")
 
+def sort_tasks():
+    priority_order = {"High": 1, "Medium": 2, "Low": 3}
+    
+    tasks.sort(key=lambda task: priority_order.get(task["priority"], 4))
+    
+    print("Tasks sorted by priority!\n")
+
 
 def main():
     while True:
@@ -80,7 +87,8 @@ def main():
         print("2. View Tasks")
         print("3. Mark Complete")
         print("4. Delete Task")
-        print("5. Exit")
+        print("5. Sort Tasks by Priority")
+        print("6. Exit")
 
         choice = input("Enter choice: ")
 
@@ -93,7 +101,9 @@ def main():
         elif choice == "4":
             delete_task()
         elif choice == "5":
-            print("Exiting...")
+            sort_tasks()
+        elif choice == "6":
+            print("Exiting...") 
             break
         else:
             print("Invalid choice\n")

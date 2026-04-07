@@ -24,8 +24,17 @@ def save_tasks():
 
 def add_task():
     title = input("Enter task title: ")
-    priority = input("Enter priority (High/Medium/Low): ")
+    priority = input("Enter priority (High/Medium/Low): ").capitalize()
+
+    if priority not in ["High", "Medium", "Low"]:
+        print("Invalid priority! Setting default to Low.")
+        priority = "Low"
+
     deadline = input("Enter deadline (YYYY-MM-DD): ")
+
+    if len(deadline) != 10 or deadline[4] != "-" or deadline[7] != "-":
+        print("Invalid format! Setting default deadline.")
+        deadline = "2026-01-01"
 
     task = {
         "title": title,
@@ -80,6 +89,14 @@ def sort_tasks():
     
     print("Tasks sorted by priority!\n")
 
+from datetime import date
+
+def check_reminders():
+    today = str(date.today())
+
+    for task in tasks:
+        if task["deadline"] == today and not task["completed"]:
+            print(f"🔔 Reminder: {task['title']} is due today!")
 
 def main():
     while True:
@@ -112,3 +129,9 @@ def main():
 if __name__ == "__main__":
     load_tasks()
     main()
+
+
+
+
+
+

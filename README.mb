@@ -47,12 +47,28 @@ A command-line based task management system built using Python. This project dem
 - Persistent storage using JSON (tasks are saved across sessions)
 
 ---
+## 🌐 Web Version (Flask)
+
+This project also includes a web-based version built using Flask, allowing users to manage tasks through a browser interface.
+
+Features:
+- Add tasks using form
+- View tasks in browser
+- Mark complete and delete tasks
+
+---
+
+## 📸 Web Interface
+![App Screenshot](image.png)
+
+---
 
 ## 🛠 Tech Stack
 
 - Python
 - JSON (for file storage)
 - CLI (Command Line Interface)
+- Web-based interface using Flask
 
 ---
 
@@ -78,10 +94,6 @@ task-manager/
 To build a real-world task management system step-by-step while improving backend development skills and problem-solving.
 
 ---
-
-
----
-
 
 ---
 
